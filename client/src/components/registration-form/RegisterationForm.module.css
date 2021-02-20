@@ -1,0 +1,24 @@
+.formGroup {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.formGroup label {
+  font-size: 18px;
+}
+
+.formGroup input {
+  width: 200px;
+  padding: 5px;
+}
+
+.btn {
+  font-size: 18px;
+  padding: 5px;
+}
+
+.error {
+  color: rgb(209, 9, 9);
+  font-size: 12px;
+}

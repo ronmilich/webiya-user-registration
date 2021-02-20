@@ -1,0 +1,28 @@
+.usersTable {
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 16px;
+  text-align: center;
+}
+
+.usersTable td,
+.usersTable th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.usersTable tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.usersTable tbody tr:hover {
+  background-color: #ddd;
+}
+
+.usersTable thead th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: rgb(245, 69, 69);
+  color: white;
+}
